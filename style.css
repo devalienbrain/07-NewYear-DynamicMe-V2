@@ -99,6 +99,15 @@ small {
   /* using relative position to overlap the appointment box */
 }
 
+.failure-section ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.failure-section ul li>img {
+  width: 17px;
+}
+
 .failure-parts {
   display: flex;
   justify-content: space-between;
@@ -119,6 +128,7 @@ small {
 /* MAKE APPOINTMENT BOX SECTION STYLE STARTS */
 .make-appointment-box {
   display: flex;
+  justify-content: space-between;
   background: linear-gradient(rgb(198, 85, 85), rgb(241, 15, 15));
   height: 140px;
   align-items: center;
@@ -134,6 +144,34 @@ small {
 
 .phone-contact {
   display: flex;
+  /* justify-content: space-around; */
+  gap: 10px;
+}
+
+.for-hr-line {
+  border-right: 2px solid gray;
+}
+
+.middle-contents {
+  margin-left: 25px;
+  font-size: 12px;
+}
+
+.appoint-btn {
+  width: 175px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 13px;
+  border: none;
+}
+
+
+.p-get-words {
+  font-size: 10px;
+}
+
+.p-numbers {
+  font-size: 25px;
 }
 
 /* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
@@ -186,6 +224,7 @@ small {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  gap: 25px;
 }
 
 .foot-section-items {
