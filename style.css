@@ -89,3 +89,130 @@ small {
   color: black;
   background-color: white;
 }
+
+.failure-section {
+  height: 100vh;
+  background-image: url('images/developer.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  position: relative;
+  /* using relative position to overlap the appointment box */
+}
+
+.failure-parts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.failure-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.failure-contents li {
+  padding-bottom: 10px;
+}
+
+/* MAKE APPOINTMENT BOX SECTION STYLE STARTS */
+.make-appointment-box {
+  display: flex;
+  background: linear-gradient(rgb(198, 85, 85), rgb(241, 15, 15));
+  height: 140px;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: aliceblue;
+  border: 0;
+  position: absolute;
+  /* using absolute position to this box to make overlap within the relative failure items */
+  bottom: -70px;
+}
+
+.phone-contact {
+  display: flex;
+}
+
+/* MAKE APPOINTMENT BOX SECTION STYLE ENDS */
+
+/* BLOOG BOXES */
+.blog-all-sec {
+  background-image: linear-gradient(30deg, rgb(220, 207, 207, 3), rgb(82, 78, 78));
+  height: 100vh;
+  color: white;
+}
+
+.blog-sec {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.blog-sec h1 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.blogbox-container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-box {
+  width: 260px;
+  height: 320px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.blog-box img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.footer-all {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: rgb(25, 102, 246);
+  color: white;
+}
+
+.foot-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.foot-section-items {
+  width: 50%;
+}
+
+.foot-section-items>form input,
+textarea {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background: #FFF;
+  margin-bottom: 10px;
+}
+
+.foot-section-items>form textarea {
+  display: block;
+  height: 170px;
+}
+
+.hr-line {
+  border: 1px solid tomato;
+}
+
+.footer-foot {
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
