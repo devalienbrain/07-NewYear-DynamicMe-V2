@@ -196,21 +196,38 @@ small {
 .blogbox-container {
   padding-top: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  color: gray;
+  text-align: left;
 }
 
 .blog-box {
-  width: 260px;
-  height: 320px;
+  width: 300px;
+  height: 340px;
   background-color: aliceblue;
   border-radius: 10px;
-  padding: 7px;
+  box-shadow: 5px 5px 13px rgb(86, 56, 56);
 }
 
 .blog-box img {
   width: 100%;
-  border-radius: 5px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.blogbox-container h4 {
+  padding-top: 11px;
+  font-size: 16px;
+}
+
+.blogbox-container p {
+  padding-top: 11px;
+  font-size: 12px;
+}
+
+.blog-box-inside-contensts {
+  padding: 10px;
 }
 
 .footer-all {
