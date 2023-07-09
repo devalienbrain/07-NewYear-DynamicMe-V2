@@ -1,0 +1,91 @@
+/* UNIVERSAL STYLE */
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* COMMON STYLE*/
+.contents-default-width {
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.tomato-col {
+  color: tomato;
+}
+
+.primary-btn {
+  color: white;
+  padding: 13px 18px;
+  background-color: tomato;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header {
+  height: 90px;
+  background-color: cornflowerblue;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-propic {
+  width: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.banner {
+  height: 100vh;
+  background-image: url('images/banner2.png'), linear-gradient(45deg, rgb(220, 207, 207, 3), rgb(18, 17, 17));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+}
+
+.banner-contents {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.banner-contents p,
+h1,
+small {
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.banner-contents p {
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.banner-contents h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.banner-contents small {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-btn {
+  color: black;
+  background-color: white;
+}
