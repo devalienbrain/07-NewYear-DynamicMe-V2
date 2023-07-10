@@ -108,11 +108,17 @@ small {
   width: 17px;
 }
 
+
 .failure-parts {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+}
+
+.failure-image,
+.failure-contents {
+  flex: 50%;
 }
 
 .failure-contents {
