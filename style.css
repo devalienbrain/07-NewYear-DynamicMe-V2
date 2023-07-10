@@ -110,6 +110,7 @@ small {
 
 
 .failure-parts {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,7 +137,7 @@ small {
   display: flex;
   justify-content: space-between;
   background: linear-gradient(rgb(198, 85, 85), rgb(241, 15, 15));
-  height: 140px;
+  height: 160px;
   align-items: center;
   border-radius: 10px;
   padding-left: 20px;
@@ -145,13 +146,24 @@ small {
   border: 0;
   position: absolute;
   /* using absolute position to this box to make overlap within the relative failure items */
-  bottom: -70px;
+  bottom: -80px;
 }
 
 .phone-contact {
+  height: 80%;
+  width: auto;
   display: flex;
   /* justify-content: space-around; */
   gap: 10px;
+  padding: 10px 20px;
+  /* align-items: baseline; */
+}
+
+.phone-logo,
+.p-cont {
+  flex: 50%;
+  width: 100%;
+  height: auto;
 }
 
 .for-hr-line {
@@ -161,6 +173,7 @@ small {
 .middle-contents {
   margin-left: 25px;
   font-size: 12px;
+  padding: 10px 30px;
 }
 
 .appoint-btn {
@@ -170,7 +183,6 @@ small {
   border-radius: 13px;
   border: none;
 }
-
 
 .p-get-words {
   font-size: 10px;
