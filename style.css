@@ -90,6 +90,25 @@ small {
   background-color: white;
 }
 
+/* SECTION PART-2 STYLE STARTS */
+.section-2 {
+  text-align: center;
+  height: 35vh;
+  padding-top: 8vh;
+  /* background-image: linear-gradient(45deg, rgb(209, 255, 209), rgb(169, 248, 169)); */
+  background-color: aliceblue;
+}
+
+.plan-container {
+  padding-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* SECTION PART-2 STYLE ENDS */
+
+
 .failure-section {
   height: 100vh;
   background-image: url('images/developer.png');
@@ -97,6 +116,7 @@ small {
   background-repeat: no-repeat;
   position: relative;
   /* using relative position to overlap the appointment box */
+  /* background-color: lightcyan; */
 }
 
 .failure-section ul li {
@@ -171,9 +191,9 @@ small {
 }
 
 .middle-contents {
-  margin-left: 25px;
   font-size: 12px;
   padding: 10px 30px;
+  padding-left: 25px;
 }
 
 .appoint-btn {
@@ -197,14 +217,16 @@ small {
 /* BLOOG BOXES */
 .blog-all-sec {
   padding-top: 20vh;
-  background-image: linear-gradient(30deg, rgb(220, 207, 207, 3), rgb(82, 78, 78));
+  /* background-image: linear-gradient(30deg, rgb(220, 207, 207, 3), rgb(82, 78, 78)); */
   height: 75vh;
-  color: white;
+  color: gray;
+  background-color: aliceblue;
 }
 
 .blog-sec {
   /* padding-top: 80px; */
   text-align: center;
+
 }
 
 .blog-sec h1 {
@@ -248,6 +270,40 @@ small {
 .blog-box-inside-contensts {
   padding: 10px;
 }
+
+/* SECTION PART-3 STYLE STARTS */
+.sec-3-part {
+  background-image: url('images/watch.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.section-3 {
+  background-color: beige;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* MAKE ALL CONTENTS RELATIVE TO IMAGE AND SHOW*/
+.absolute-div {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.absolute-div h2 {
+  color: #FFF;
+  font-size: 34px;
+  font-weight: 600;
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+}
+
+/* SECTION PART-3 STYLE ENDS */
+
 
 .footer-all {
   padding-top: 50px;
